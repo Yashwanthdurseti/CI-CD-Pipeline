@@ -14,3 +14,5 @@ describe('GET Endpoints', () => {
     expect(res.statusCode).toEqual(200);
   });
 });
+module.exports = app;
+

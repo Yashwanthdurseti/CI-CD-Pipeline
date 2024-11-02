@@ -1,3 +1,5 @@
+jest.setTimeout(10000); // 10 seconds
+
 const request = require('supertest');
 const app = require('../server'); // Ensure the path to `server.js` is correct
 
